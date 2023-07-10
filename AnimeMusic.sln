@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeMusic", "AnimeMusic\AnimeMusic.csproj", "{A0601635-9809-4FA2-B2EF-2792E040D48E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0601635-9809-4FA2-B2EF-2792E040D48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0601635-9809-4FA2-B2EF-2792E040D48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0601635-9809-4FA2-B2EF-2792E040D48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0601635-9809-4FA2-B2EF-2792E040D48E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65CF164D-7D79-4B5A-BDB4-FB543F4D3071}
+	EndGlobalSection
+EndGlobal
