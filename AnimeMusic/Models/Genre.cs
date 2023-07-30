@@ -19,4 +19,11 @@ namespace AnimeMusic.Models
 
         //Game
     }
+    public class GenreDto
+    {
+        public int GenreID { get; set; }
+        public string GenreName { get; set; }
+        public int AnimeID { get; set; }
+        public string AnimeName { get; set; }
+    }
 }
