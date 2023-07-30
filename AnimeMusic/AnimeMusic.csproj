@@ -277,11 +277,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Anime\List.cshtml" />
+    <Content Include="Views\Anime\Details.cshtml" />
+    <Content Include="Views\Anime\Edit.cshtml" />
+    <Content Include="Views\Anime\Error.cshtml" />
+    <Content Include="Views\Anime\New.cshtml" />
+    <Content Include="Views\Anime\DeleteConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\AnimeData\" />
-    <Folder Include="Views\Anime\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

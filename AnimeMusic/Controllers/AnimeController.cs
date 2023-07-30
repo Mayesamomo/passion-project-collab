@@ -26,7 +26,7 @@ namespace AnimeMusic.Controllers
             };
 
             Client = new HttpClient(handler);
-            Client.BaseAddress = new Uri("https://localhost:44338/api/");
+            Client.BaseAddress = new Uri("https://localhost:44358/api/");
 
         }
         private void GetApplicationCookie()
@@ -48,11 +48,25 @@ namespace AnimeMusic.Controllers
 
             return;
         }
+
+        // GET: Anime/List
+        public ActionResult List()
+        {
+            //Objective: communicate with anime data api to retrieve a list of animes
+            //curl: https://localhost:44338/api/animedata/listanimes
+
+            string url = "animedata/listanimes";
+            HttpResponseMessage Response = Client.GetAsync(url).Result;
+            IEnumerable<AnimeDto> Animes = Response.Content.ReadAsAsync<IEnumerable<AnimeDto>>().Result;
+
+            return View(Animes);
+        }
+
         // GET: Anime/Details/5
         public ActionResult Details(int id)
         {
             //Objective: communicate with our anime data api to retrieve one anime
-            //curl: https://localhost:44338/api/animedata/findanime/{id}
+            //curl: https://localhost:44358/api/animedata/findanime/{id}
 
             string url = "animedata/findanime/" + id;
             HttpResponseMessage Response = Client.GetAsync(url).Result;
