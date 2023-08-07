@@ -199,10 +199,16 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+<<<<<<< HEAD
+    <Compile Include="Models\Album.cs" />
+    <Compile Include="Models\Artist.cs" />
+=======
     <Compile Include="Models\Anime.cs" />
+>>>>>>> 929618d4d90f676b22cb334fb68b2c6ae61cb84d
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Song.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
