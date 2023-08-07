@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\bin\AnimeMusic.dll.config
 C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\bin\AnimeMusic.dll
 C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\bin\AnimeMusic.pdb
@@ -114,6 +115,8 @@ C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\obj\Debug\AnimeMusic.csproj.Co
 C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\obj\Debug\AnimeMusic.dll
 C:\Users\micha\source\repos\AnimeMusic\AnimeMusic\obj\Debug\AnimeMusic.pdb
 =======
+=======
+>>>>>>> 929618d4d90f676b22cb334fb68b2c6ae61cb84d
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\bin\AnimeMusic.dll.config
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\bin\AnimeMusic.dll
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\bin\AnimeMusic.pdb
@@ -231,4 +234,7 @@ C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\o
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\obj\Debug\AnimeMusic.Migrations.Initial.resources
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\obj\Debug\AnimeMusic.csproj.GenerateResource.cache
 C:\Users\hongkanpoon\source\repos\Mayesamomo\passion-project-collab\AnimeMusic\obj\Debug\AnimeMusic.Migrations.Animeandgenretable.resources
+<<<<<<< HEAD
+>>>>>>> 929618d4d90f676b22cb334fb68b2c6ae61cb84d
+=======
 >>>>>>> 929618d4d90f676b22cb334fb68b2c6ae61cb84d
